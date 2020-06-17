@@ -22,10 +22,21 @@ h3 {
 /* Section Header */
 
 .navbar {
-  background-color: #364f6b;
   margin-bottom: 0px;
   padding-left: 10%;
-  padding-top: 0%;
+  padding-top: 2%;
+}
+
+.brand {
+  color: #ffe8df;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+.brand:hover {
+  color: #ffe8df;
 }
 
 .navbar1 {
@@ -42,23 +53,27 @@ h3 {
   margin: 20px;
 }
 
+
 /* Color option selection #dddddd #f1d1d1 #ffe8df */
 
 .nav-item {
   padding: 0 5px;
 }
 
-.dropdown-menu {
-  background-color: #ffe8df;
+.dropdown-item {
+  color: white;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
 }
+
 
 .dropdown-item:hover {
   background-color: #ddd;
   text-decoration: underline;
 }
 
+
 .nav-item:hover {
-  background-color: #ddd;
   text-decoration: underline;
 }
 
@@ -77,6 +92,8 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
 }
 
 #title .container-fluid {
@@ -86,11 +103,16 @@ h3 {
   color: #ffecc7;
   font-style: italic;
   font-size: 1.4rem;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
 }
 
-.title-image {
-  width: 20%;
-  height: 30%;
+#title:hover {
+  background-image: url("../css/images/website.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 /* Feature */
